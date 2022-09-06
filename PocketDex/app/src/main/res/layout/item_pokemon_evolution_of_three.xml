@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/baseForm"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toStartOf="@+id/arrow1"
+            app:layout_constraintTop_toTopOf="@+id/evolution1"
+            tools:ignore="ContentDescription"
+            tools:srcCompat="@drawable/img_pokemon_very_large" />
+
+        <TextView
+            android:id="@+id/arrow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_pokemon_solid"
+            android:text="@string/pokemon_evolution_of_three_arrow"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="?attr/colorOnSecondary"
+            app:layout_constraintBottom_toBottomOf="@+id/evolution1"
+            app:layout_constraintEnd_toStartOf="@+id/evolution1"
+            app:layout_constraintTop_toTopOf="@+id/evolution1" />
+
+        <ImageView
+            android:id="@+id/evolution1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription"
+            tools:srcCompat="@drawable/img_pokemon_very_large" />
+
+        <TextView
+            android:id="@+id/arrow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_pokemon_solid"
+            android:text="@string/pokemon_evolution_of_three_arrow"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="?attr/colorOnSecondary"
+            app:layout_constraintBottom_toBottomOf="@+id/evolution1"
+            app:layout_constraintStart_toEndOf="@+id/evolution1"
+            app:layout_constraintTop_toTopOf="@+id/evolution1" />
+
+        <ImageView
+            android:id="@+id/evolution2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toEndOf="@+id/arrow2"
+            app:layout_constraintTop_toTopOf="@id/evolution1"
+            tools:ignore="ContentDescription"
+            tools:srcCompat="@drawable/img_pokemon_very_large" />
+
+        <TextView
+            android:id="@+id/bottomBar"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="-15dp"
+            android:fontFamily="@font/font_pokemon_hollow"
+            android:text="@string/pokemon_evolution_separator"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="?attr/colorOnSecondary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/evolution1" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

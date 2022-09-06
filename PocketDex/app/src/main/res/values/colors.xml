@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_light">#EDEDED</color>
+    <color name="background_dark">#2C2C2C</color>
+    <color name="text_light">#151515</color>
+    <color name="text_dark">#EDEDED</color>
+
+    <color name="background2_light">#EDEDED</color>
+    <color name="background2_dark">#2C2C2C</color>
+    <color name="text2_light">#151515</color>
+    <color name="text2_dark">#DADADA</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="yellow">#FFC107</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="pokemon_black">#292929</color>
+    <color name="pokemon_blue">#4485B8</color>
+    <color name="pokemon_brown">#73644E</color>
+    <color name="pokemon_gray">#938686</color>
+    <color name="pokemon_green">#71A873</color>
+    <color name="pokemon_pink">#BD6C88</color>
+    <color name="pokemon_purple">#A169AA</color>
+    <color name="pokemon_red">#BA5151</color>
+    <color name="pokemon_white">#F1F1F1</color>
+    <color name="pokemon_yellow">#D5C754</color>
+
+    <color name="type_normal">#938686</color>
+    <color name="type_fighting">#C1B2B1</color>
+    <color name="type_flying">#71A5AC</color>
+    <color name="type_poison">#9C27B0</color>
+    <color name="type_ground">#73493C</color>
+    <color name="type_rock">#534F4F</color>
+    <color name="type_bug">#8BC34A</color>
+    <color name="type_ghost">#512D91</color>
+    <color name="type_steel">#686868</color>
+    <color name="type_fire">#FF5722</color>
+    <color name="type_water">#2196F3</color>
+    <color name="type_grass">#4CAF50</color>
+    <color name="type_electric">#FFEB3B</color>
+    <color name="type_psychic">#734F69</color>
+    <color name="type_ice">#8BC9D1</color>
+    <color name="type_dragon">#681313</color>
+    <color name="type_dark">#272727</color>
+    <color name="type_fairy">#DBA1E4</color>
+
+    <color name="item_black">#292929</color>
+    <color name="item_blue">#4485B8</color>
+    <color name="item_brown">#73644E</color>
+    <color name="item_gray">#938686</color>
+    <color name="item_green">#71A873</color>
+    <color name="item_pink">#BD6C88</color>
+    <color name="item_purple">#A169AA</color>
+    <color name="item_red">#BA5151</color>
+    <color name="item_white">#F1F1F1</color>
+    <color name="item_yellow">#D5C754</color>
+
+</resources>

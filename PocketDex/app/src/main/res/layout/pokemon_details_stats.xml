@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/baseStats_fixedText"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/pokemon_base_stats"
+            android:textAlignment="textStart"
+            android:textColor="#FF5722"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/middleBar"
+            android:layout_width="2dp"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="@id/defense_fixedText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/hp_fixedText"
+            app:srcCompat="@drawable/img_plain_white"
+            app:tint="#888888"
+            tools:ignore="ContentDescription" />
+
+
+        <TextView
+            android:id="@+id/hp_fixedText"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/pokemon_stat_hp"
+            android:textAlignment="textStart"
+            android:textColor="?attr/colorOnSecondary"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/hp_value"
+            app:layout_constraintTop_toBottomOf="@id/baseStats_fixedText" />
+
+        <TextView
+            android:id="@+id/hp_value"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:textAlignment="textEnd"
+            android:textColor="?attr/colorOnSecondary"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/middleBar"
+            app:layout_constraintTop_toTopOf="@+id/hp_fixedText"
+            tools:text="999" />
+
+        <TextView
+            android:id="@+id/attack_fixedText"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/pokemon_stat_attack"
+            android:textAlignment="textStart"
+            android:textColor="?attr/colorOnSecondary"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/attack_value"
+            app:layout_constraintTop_toBottomOf="@id/hp_fixedText" />
+
+        <TextView
+            android:id="@+id/attack_value"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="textEnd"
+            android:textColor="?attr/colorOnSecondary"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/hp_value"
+            app:layout_constraintTop_toTopOf="@+id/attack_fixedText"
+            tools:text="999" />
+
+        <TextView
+            android:id="@+id/defense_fixedText"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/pokemon_stat_defense"
+            android:textAlignment="textStart"
+            android:textColor="?attr/colorOnSecondary"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/defense_value"
+            app:layout_constraintTop_toBottomOf="@id/attack_fixedText" />
+
+        <TextView
+            android:id="@+id/defense_value"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="textEnd"
+            android:textColor="?attr/colorOnSecondary"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/hp_value"
+            app:layout_constraintTop_toTopOf="@+id/defense_fixedText"
+            tools:text="999" />
+
+
+        <TextView
+            android:id="@+id/spAttack_fixedText"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:text="@string/pokemon_stat_special_attack"
+            android:textAlignment="textStart"
+            android:textColor="?attr/colorOnSecondary"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/middleBar"
+            app:layout_constraintTop_toTopOf="@id/hp_fixedText" />
+
+        <TextView
+            android:id="@+id/spAttack_value"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="textEnd"
+            android:textColor="?attr/colorOnSecondary"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/spAttack_fixedText"
+            app:layout_constraintTop_toTopOf="@+id/spAttack_fixedText"
+            tools:text="999" />
+
+        <TextView
+            android:id="@+id/spDefense_fixedText"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/pokemon_stat_special_defense"
+            android:textAlignment="textStart"
+            android:textColor="?attr/colorOnSecondary"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/spAttack_fixedText"
+            app:layout_constraintTop_toBottomOf="@id/spAttack_fixedText" />
+
+        <TextView
+            android:id="@+id/spDefense_value"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="textEnd"
+            android:textColor="?attr/colorOnSecondary"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/spDefense_fixedText"
+            app:layout_constraintTop_toTopOf="@+id/spDefense_fixedText"
+            tools:text="999" />
+
+        <TextView
+            android:id="@+id/speed_fixedText"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/pokemon_stat_speed"
+            android:textAlignment="textStart"
+            android:textColor="?attr/colorOnSecondary"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/spDefense_fixedText"
+            app:layout_constraintTop_toBottomOf="@id/spDefense_fixedText" />
+
+        <TextView
+            android:id="@+id/speed_value"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="textEnd"
+            android:textColor="?attr/colorOnSecondary"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/speed_fixedText"
+            app:layout_constraintTop_toTopOf="@+id/speed_fixedText"
+            tools:text="999" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

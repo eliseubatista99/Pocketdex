@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/defenses_fixedText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/pokemon_defense_effectiveness"
+            android:textAlignment="textStart"
+            android:textColor="#FF5722"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/defense_linear_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_min="30dp"
+            app:layout_constraintStart_toStartOf="@id/defenses_fixedText"
+            app:layout_constraintTop_toBottomOf="@id/defenses_fixedText">
+
+            <include
+                android:id="@+id/defense_doubleDamage_container"
+                layout="@layout/item_damage_relation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintHeight_min="30dp" />
+
+            <include
+                android:id="@+id/defense_halfDamage_container"
+                layout="@layout/item_damage_relation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintHeight_min="30dp" />
+
+            <include
+                android:id="@+id/defense_noDamage_container"
+                layout="@layout/item_damage_relation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintHeight_min="30dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/attack_fixedText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/pokemon_attack_effectiveness"
+            android:textAlignment="textStart"
+            android:textColor="#FF5722"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/defenses_fixedText"
+            app:layout_constraintTop_toBottomOf="@id/defense_linear_layout" />
+
+
+        <LinearLayout
+            android:id="@+id/attack_linear_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_min="30dp"
+            app:layout_constraintStart_toStartOf="@+id/defense_linear_layout"
+            app:layout_constraintTop_toBottomOf="@id/attack_fixedText">
+
+            <include
+                android:id="@+id/attack_noDamage_container"
+                layout="@layout/item_damage_relation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <include
+                android:id="@+id/attack_halfDamage_container"
+                layout="@layout/item_damage_relation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <include
+                android:id="@+id/attack_doubleDamage_container"
+                layout="@layout/item_damage_relation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

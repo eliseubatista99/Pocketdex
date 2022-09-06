@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+
+        <ImageView
+            android:id="@+id/pokemon_list_item_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/shape_rounded_rectangle"
+            android:scaleType="fitXY"
+            tools:backgroundTint="#BD2555"
+            tools:ignore="ContentDescription" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/pokemon_list_watermark"
+                android:layout_width="250dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="-55dp"
+                android:alpha="0.1"
+                android:scaleType="centerCrop"
+                android:scaleY="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_pokeball_watermark"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/pokemon_list_image"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginBottom="-28dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:ignore="ContentDescription"
+                tools:srcCompat="@drawable/img_pokemon_very_large" />
+
+
+            <TextView
+                android:id="@+id/pokemon_list_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="42dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="#014" />
+
+            <TextView
+                android:id="@+id/pokemon_list_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/pokemon_list_id"
+                app:layout_constraintTop_toBottomOf="@+id/pokemon_list_id"
+                tools:text="Charmander" />
+
+            <include
+                android:id="@+id/pokemon_list_first_type"
+                layout="@layout/item_pokemon_type_medium"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintStart_toStartOf="@+id/pokemon_list_name"
+                app:layout_constraintTop_toBottomOf="@+id/pokemon_list_name" />
+
+            <include
+                android:id="@+id/pokemon_list_second_type"
+                layout="@layout/item_pokemon_type_medium"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                app:layout_constraintStart_toEndOf="@+id/pokemon_list_first_type"
+                app:layout_constraintTop_toTopOf="@+id/pokemon_list_first_type" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/colorOnPrimary"
+        android:orientation="vertical"
+        tools:context=".fragments.settings.SettingsFragment">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/settings_title"
+            android:textAlignment="center"
+            android:textColor="?attr/colorOnSecondary"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="7dp"
+            android:alpha="0.125"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_plain_white"
+            app:tint="?attr/colorOnSecondary"
+            tools:ignore="ContentDescription" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+
+            android:id="@+id/night_mode_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:text="@string/dark_mode" />
+
+        <ImageView
+            android:id="@+id/bottom_bar"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="7dp"
+            android:alpha="0.125"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_plain_white"
+            app:tint="?attr/colorOnSecondary"
+            tools:ignore="ContentDescription" />
+
+
+    </LinearLayout>
+</layout>

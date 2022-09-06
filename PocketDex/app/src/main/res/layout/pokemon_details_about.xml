@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/species_value"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textAlignment="center"
+            android:textColor="?attr/colorOnSecondary"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Fighting" />
+
+        <TextView
+            android:id="@+id/species_fixedText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/pokemon_species"
+            android:textColor="?attr/colorOnSecondary"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="@id/species_value"
+            app:layout_constraintStart_toStartOf="@id/species_value"
+            app:layout_constraintTop_toBottomOf="@id/species_value" />
+
+        <ImageView
+            android:id="@+id/pokemon_details_bar_1"
+            android:layout_width="3dp"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="@+id/species_fixedText"
+            app:layout_constraintEnd_toStartOf="@+id/height_value"
+            app:layout_constraintStart_toEndOf="@+id/species_value"
+            app:layout_constraintTop_toTopOf="@+id/species_value"
+            app:srcCompat="@drawable/img_plain_white"
+            app:tint="#FF9800"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/height_value"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="?attr/colorOnSecondary"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/species_value"
+            tools:text="4.9m" />
+
+        <TextView
+            android:id="@+id/height_fixedText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/pokemon_height"
+            android:textColor="?attr/colorOnSecondary"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="@id/height_value"
+            app:layout_constraintStart_toStartOf="@id/height_value"
+            app:layout_constraintTop_toBottomOf="@id/height_value" />
+
+        <ImageView
+            android:id="@+id/pokemon_details_bar_2"
+            android:layout_width="3dp"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="@+id/height_fixedText"
+            app:layout_constraintEnd_toStartOf="@+id/weight_value"
+            app:layout_constraintStart_toEndOf="@+id/height_value"
+            app:layout_constraintTop_toTopOf="@+id/height_value"
+            app:srcCompat="@drawable/img_plain_white"
+            app:tint="#FF9800"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/weight_value"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:textColor="?attr/colorOnSecondary"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/species_value"
+            tools:text="4.3Kg" />
+
+        <TextView
+            android:id="@+id/weight_fixedText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/pokemon_weight"
+            android:textColor="?attr/colorOnSecondary"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="@id/weight_value"
+            app:layout_constraintStart_toStartOf="@id/weight_value"
+            app:layout_constraintTop_toBottomOf="@id/weight_value" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

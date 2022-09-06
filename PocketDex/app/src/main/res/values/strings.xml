@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">PocketDex</string>
+
+    <!-- TITLE SCREEN -->
+    <string name="title_screen_touch_screen">Touch Screen</string>
+
+
+    <!-- BAR ITEMS -->
+    <string name="bar_item_locations">Locations</string>
+    <string name="bar_item_items">Items</string>
+    <string name="bar_item_pokedex">Pokédex</string>
+    <string name="bar_item_profile">Profile</string>
+    <string name="bar_item_settings">Settings</string>
+
+    <!-- POKEMON ABOUT -->
+    <string name="pokemon_species">Species</string>
+    <string name="pokemon_height">Height</string>
+    <string name="pokemon_weight">Weight</string>
+
+
+    <!-- POKEMON STATS -->
+    <string name="pokemon_base_stats">Base Stats</string>
+    <string name="pokemon_stat_hp">HP</string>
+    <string name="pokemon_stat_attack">Attack</string>
+    <string name="pokemon_stat_defense">Defense</string>
+    <string name="pokemon_stat_special_attack">Sp. Attack</string>
+    <string name="pokemon_stat_special_defense">Sp. Defense</string>
+    <string name="pokemon_stat_speed">Speed</string>
+
+    <!-- POKEMON DAMAGES -->
+    <string name="pokemon_defense_effectiveness">Defense Effectiveness:</string>
+    <string name="pokemon_attack_effectiveness">Attack Effectiveness:</string>
+
+
+    <!-- POKEMON EVOLUTIONS -->
+    <string name="pokemon_evolution_chains">Evolution Chains:</string>
+    <string name="pokemon_evolution_of_two_arrow"><![CDATA[--->]]></string>
+    <string name="pokemon_evolution_of_three_arrow"><![CDATA[—>]]></string>
+    <string name="pokemon_evolution_separator">- - - - - - - - - - - - - - - -</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="settings_title">SETTINGS</string>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects/NewPocketDex/PocketDex/app/src/main/res/layout/activity_control.xml" value="0.25" />
+        <entry key="..\:/Projects/NewPocketDex/PocketDex/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Projects/NewPocketDex/PocketDex/app/src/main/res/layout/fragment_items.xml" value="0.25" />
+        <entry key="..\:/Projects/NewPocketDex/PocketDex/app/src/main/res/layout/fragment_locations.xml" value="0.25" />
+        <entry key="..\:/Projects/NewPocketDex/PocketDex/app/src/main/res/layout/fragment_pokedex.xml" value="0.25" />
+        <entry key="..\:/Projects/NewPocketDex/PocketDex/app/src/main/res/layout/fragment_pokedex_details.xml" value="0.25" />
+        <entry key="..\:/Projects/NewPocketDex/PocketDex/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Projects/NewPocketDex/PocketDex/app/src/main/res/layout/fragment_settings.xml" value="0.25" />
+        <entry key="..\:/Projects/NewPocketDex/PocketDex/app/src/main/res/layout/item_pokemon_list.xml" value="0.24895833333333334" />
+        <entry key="..\:/Projects/NewPocketDex/PocketDex/app/src/main/res/menu/bottom_nav_menu.xml" value="0.24895833333333334" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/drawable/menu_transparent_background.xml" value="0.2035" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/drawable/shape_pokemon_type.xml" value="0.1275" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/drawable/shape_rounded_rectangle.xml" value="0.2035" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/drawable/shapes.xml" value="0.2035" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/font/test_font.xml" value="0.27685185185185185" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/activity_control.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/activity_main.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/custom_pokemon_type.xml" value="0.2151268115942029" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/fragment_item_details.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/fragment_item_details_about.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/fragment_items.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/fragment_locations.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/fragment_pokedex.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/fragment_pokedex_details.xml" value="0.264" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/fragment_pokedex_details_about.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/fragment_pokedex_details_evolutions.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/fragment_pokedex_details_stats.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/fragment_pokemon_details_evolutions.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/fragment_pokemon_details_stats.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/fragment_profile.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/fragment_profile_items.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/fragment_profile_pokemons.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/fragment_profile_regions.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/fragment_region_details.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/fragment_region_locations.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/fragment_regions.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/fragment_settings.xml" value="0.264" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/grid_pokemon_types.xml" value="0.264" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/item_damage_relation.xml" value="0.2" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/item_item_category.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/item_item_list.xml" value="0.26510416666666664" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/item_items_list.xml" value="0.26510416666666664" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/item_location.xml" value="0.26510416666666664" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/item_location_list.xml" value="0.264" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/item_pokemon_evolution_list.xml" value="0.26510416666666664" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/item_pokemon_evolution_of_three.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/item_pokemon_evolution_of_two.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/item_pokemon_list.xml" value="0.264" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/item_pokemon_type_large.xml" value="0.536" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/item_pokemon_type_medium.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/item_pokemon_type_small.xml" value="0.4" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/item_region_list.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/item_text_with_background.xml" value="0.23425925925925925" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/list_dark_mode.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/pokemon_about.xml" value="0.26510416666666664" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/pokemon_details_about.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/pokemon_details_damages.xml" value="0.264" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/pokemon_details_evolution_of_three.xml" value="0.26510416666666664" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/pokemon_details_evolution_of_two.xml" value="0.2" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/pokemon_details_evolutions.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/pokemon_details_evolutions_list.xml" value="0.26510416666666664" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/pokemon_details_stats.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/pokemon_details_types.xml" value="0.26510416666666664" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/pokemon_details_weaknesses.xml" value="0.26510416666666664" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/pokemon_stats.xml" value="0.2" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/pokemon_type.xml" value="0.26510416666666664" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/pokemon_type_large.xml" value="0.26510416666666664" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/pokemon_type_medium.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/pokemon_type_small.xml" value="0.264" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/progress_bar.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/search_bar.xml" value="0.24738675958188153" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/tab_bar.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/toolbar_details.xml" value="0.26614583333333336" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/layout/toolbar_pokedex_details.xml" value="0.26510416666666664" />
+        <entry key="..\:/Projects/Pocketdex-App/PocketDex/app/src/main/res/menu/bottom_nav_menu.xml" value="0.26614583333333336" />
+      </map>
+    </option>
+  </component>
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="androidx.room.TypeConverter" />
+    </list>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
