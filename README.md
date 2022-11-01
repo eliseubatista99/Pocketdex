@@ -6,3 +6,15 @@ This project was developed during my Android training. The main objective was to
 - Have a RecyclerView with a paging system
 - Have an offline caching system, where the Api data is stored in cache, and updated only once a day (when the app is closed and the phone is using Wi-Fi)
 - Use the MVC pattern (Model-View-Controller)
+
+# How to install
+
+1) Download the PocketDex.apk and install it on your phone
+  -- OR --
+2) Clone the project and run it on Android Studio or other IDE
+
+# Screenshots
+
+
+
+
