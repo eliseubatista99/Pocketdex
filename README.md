@@ -15,7 +15,7 @@ This project was developed during my Android training. The main objective was to
 
 # Screenshots
 
-![Splash Screen](https://github.com/eliseubatista99/Pocketdex/blob/main/Screenshots/Splash.jpeg?raw=true | width=50)
+<img src="https://github.com/eliseubatista99/Pocketdex/blob/main/Screenshots/Splash.jpeg" width="48">
 ![Pokemon List](https://github.com/eliseubatista99/Pocketdex/blob/main/Screenshots/PokeList.jpeg?raw=true)
 ![Pokemon About](https://github.com/eliseubatista99/Pocketdex/blob/main/Screenshots/PokeAbout.jpeg?raw=true)
 ![Pokemon Stats](https://github.com/eliseubatista99/Pocketdex/blob/main/Screenshots/PokeStats.jpeg?raw=true)
