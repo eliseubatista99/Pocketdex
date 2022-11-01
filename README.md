@@ -15,11 +15,11 @@ This project was developed during my Android training. The main objective was to
 
 # Screenshots
 
-<img src="https://github.com/eliseubatista99/Pocketdex/blob/main/Screenshots/Splash.jpeg" width="48">
-![Pokemon List](https://github.com/eliseubatista99/Pocketdex/blob/main/Screenshots/PokeList.jpeg?raw=true)
-![Pokemon About](https://github.com/eliseubatista99/Pocketdex/blob/main/Screenshots/PokeAbout.jpeg?raw=true)
-![Pokemon Stats](https://github.com/eliseubatista99/Pocketdex/blob/main/Screenshots/PokeStats.jpeg?raw=true)
-![Pokemon Evolutions](https://github.com/eliseubatista99/Pocketdex/blob/main/Screenshots/PokeEvolutions.jpeg?raw=true)
+<img src="https://github.com/eliseubatista99/Pocketdex/blob/main/Screenshots/Splash.jpeg" width="250">
+<img src="https://github.com/eliseubatista99/Pocketdex/blob/main/Screenshots/PokeList.jpeg" width="250">
+<img src="https://github.com/eliseubatista99/Pocketdex/blob/main/Screenshots/PokeAbout.jpeg" width="250">
+<img src="https://github.com/eliseubatista99/Pocketdex/blob/main/Screenshots/PokeStats.jpeg" width="250">
+<img src="https://github.com/eliseubatista99/Pocketdex/blob/main/Screenshots/PokeEvolutions.jpeg" width="250">
 
 
 
